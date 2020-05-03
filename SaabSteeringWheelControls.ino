@@ -16,9 +16,8 @@ const int srcPin = 10;
 const int mutePin = 9;
 
 const int checkDuration = 10;
-const int numberOfChecks = 5;
+const int numberOfChecks = 3;
 int lastPressedButton = 0;
-int currentButton = 0;
 
 void setup() {
   Serial.begin(9600);
